@@ -1,0 +1,12 @@
+/index.php
+xmlrpc.php
+wp-*.php
+wp-admin
+wp-includes
+license.txt
+readme.html
+wp-content/index.php
+wp-content/plugins
+wp-content/themes/index.php
+*.sublime-project
+*.sublime-workspace
