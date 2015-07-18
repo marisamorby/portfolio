@@ -1,0 +1,269 @@
+/*! This theme rides a Hoverboard (http://gethoverboard.com/) */
+
+/*
+ * FONTS
+ */
+
+@font-face {
+font-family: 'Roboto2014_black';
+    src: url('../fonts/roboto-black-webfont.eot');
+    src: url('../fonts/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff'),
+         url('../fonts/roboto-black-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-black-webfont.svg#robotoblack') format('svg');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto2014';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto2014';
+    src: url('../fonts/roboto-italic-webfont.eot');
+    src: url('../fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff'),
+         url('../fonts/roboto-italic-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto2014';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto2014';
+    src: url('..fonts/roboto-bolditalic-webfont.eot');
+    src: url('..fonts/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('..fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('..fonts/roboto-bolditalic-webfont.woff') format('woff'),
+         url('..fonts/roboto-bolditalic-webfont.ttf') format('truetype'),
+         url('..fonts/roboto-bolditalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+/*
+ * DEPENDENCIES
+ *****************************************************************************/
+
+@import "../../../hoverboard/assets/less/hoverstrap.less";
+@import "variables.less";
+
+// Overrides the font path here to allow quick updates to variables.less
+@icon-font-path: "../../../hoverboard/bower_components/bootstrap/fonts/";
+
+
+
+/*
+ * CUSTOM THEME STYLES
+ *****************************************************************************/
+
+// == Common Styles
+// Example:
+// @import "header.less";
+
+// == Page-Specific Styles
+// Example:
+// @import "front-page.less";
+
+.center-me {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Georgia;
+}
+
+.full-sized-image {
+	position: relative;
+
+    h3 {
+        font-size: 60px;
+ }
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.about-me-header {
+	position: absolute;
+	width: 50%;
+	top: 25%;
+	left: 8%;
+    text-shadow: 2px 2px #B6B6B6;
+}
+.about-me-text {
+	position: relative;
+	background: white; 
+	width: 100%;
+  padding: 3em;
+}
+
+.work-header {
+	position: absolute;
+    color: #ffffff;
+    width: 40%;
+    top: 25%;
+    left: 44%;
+    text-shadow: 2px 2px #B6B6B6;
+}
+
+.work-text {
+  position: relative;
+	 background: white;
+	 width: 100%;
+   padding: 3em
+}
+
+.blog-header {
+	position: absolute;
+    color: #ffffff;
+    width: 40%;
+    top: 25%;
+    left: 44%;
+    text-shadow: 1px 1px #B6B6B6;
+}
+
+.blog-text {
+  position: relative;
+	 background: white;
+	 width: 100%;
+   padding: 3em
+}
+
+.contact-header {
+  position: absolute;
+    color: #ffffff;
+    width: 40%;
+    top: 25%;
+    left: 38%;
+    text-shadow: 1px 1px #B6B6B6;
+}
+
+.contact-text {
+  position: relative;
+    background: white;
+    width: 100%;
+    padding: 2em
+}
+
+/* This is the scrolling arrow */
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+/* UP ARROW navigation style */
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap-top {
+  position:relative;
+  z-index:1;
+  left:50%;
+  top:0em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:3em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow-top {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(180deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow-top:after {
+  content:'';
+  position:absolute;
+  top: -3.2em;
+  left: -3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
