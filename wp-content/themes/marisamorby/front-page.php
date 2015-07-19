@@ -14,11 +14,11 @@ get_header(); ?>
 <div class="image-header full-sized-image">
 
 	<div class="about-me-header">
-		<h1>Hi, I'm Marisa.</h1>
+		<h1>Hi, I&rsquo;m Marisa.</h1>
 
-		<h2>Copywriter & Content Strategist</h2>	
+		<h2>Copywriter &amp; Content Strategist</h2>	
 
-		<h2>I'm a people person and I like creating great conversations.</h2> 
+		<h2>I&rsquo;m a people person and I like creating great conversations.</h2> 
 
 		<h2>I want to create great conversations for you.</h2>
 	</div>
@@ -30,53 +30,53 @@ get_header(); ?>
 <!-- This is the block with scrolling About Me text on white background -->
 <div class="about-me-text">
 
-	<p>Oh hey, I'm Marisa Morby. I'm curious about people, love making connections, and have a knack for writing. In eight words or less, I'd call myself a content strategist who can solve your problems.</p>
+	<p>Oh hey, I&rsquo;m Marisa Morby. I&rsquo;m curious about people, love making connections, and have a knack for writing. In eight words or less, I&rsquo;d call myself a content strategist who can solve your problems.</p>
 
-	<p><b>SOME THINGS YOU SHOULD KNOW ABOUT ME</b></p>
+	<p><strong>SOME THINGS YOU SHOULD KNOW ABOUT ME</strong></p>
 
-	<p><b>I'M SHORT.</b></p>
+	<p><strong>I&rsquo;M SHORT.</strong></p>
 
-		<p>Like 4'11" short. If you ever meet me in person, I have a list of things I don't need to hear anymore. Things like, "Oh my god, your sooo little." Yes, I know. I've known me all my life. </p>	
+		<p>Like 4'11" short. If you ever meet me in person, I have a list of things I don&rsquo;t need to hear anymore. Things like, &ldquo;Oh my god, your sooo little.&rdquo; Yes, I know. I&rsquo;ve known me all my life. </p>	
 
-	<p><b>I HAVE WILD AND FANTASTIC CURLY HAIR.</b></p>
+	<p><strong>I HAVE WILD AND FANTASTIC CURLY HAIR.</strong></p>
 
-		<p>My hair is like an untamed beast. It flashes out into a lion's mane every morning and behaves best when I take it for long walks on the beach.</p>
+		<p>My hair is like an untamed beast. It flashes out into a lion&rsquo;s mane every morning and behaves best when I take it for long walks on the beach.</p>
 
-	<p><b>I'M WEIRD, AND THAT'S A GOOD THING.</b></p>
+	<p><strong>I&rsquo;M WEIRD, AND THAT&rsquo;S A GOOD THING.</strong></p>
 
-		<p>I tend to make connections that other people don't see, or come up with stories that would otherwise go unheard. My weirdness makes for great entertainment at dinner parties. You. Are. Welcome.</p>
+		<p>I tend to make connections that other people don&rsquo;t see, or come up with stories that would otherwise go unheard. My weirdness makes for great entertainment at dinner parties. You. Are. Welcome.</p>
 
-	<p><b>I TRAVEL THE WORLD BECAUSE I CAN.</b></p>
+	<p><strong>I TRAVEL THE WORLD BECAUSE I CAN.</strong></p>
 
-		<p>And I've become a pretty solid traveler, too. I can say hello, thank you, goodbye, and what?? in seven languages now. This is a true skill. Also, did I already mention how entertaining I am at dinner parties?</p>	
+		<p>And I&rsquo;ve become a pretty solid traveler, too. I can say hello, thank you, goodbye, and what?? in seven languages now. This is a true skill. Also, did I already mention how entertaining I am at dinner parties?</p>	
 
-	<p><b>I LIKE WORKING ON PROJECTS SO I CAN LEARN NEW SKILLS.</b></p>
+	<p><strong>I LIKE WORKING ON PROJECTS SO I CAN LEARN NEW SKILLS.</strong></p>
 
-		<p>This website you're reading is one of them. Guess how much code I knew before I built this? None. It took me a month to get the site up, but guess who knows CSS and HTML, now? This girl. I love learning new things, tackling challenges, and staring danger in the face. Ok, maybe I got carried away on the last thing.</p>
+		<p>This website you&rsquo;re reading is one of them. Guess how much code I knew before I built this? None. It took me a month to get the site up, but guess who knows CSS and HTML, now? This girl. I love learning new things, tackling challenges, and staring danger in the face. Ok, maybe I got carried away on the last thing.</p>
 
-	<p><b>I LOVE WRITING</b>.</p>	
+	<p><strong>I LOVE WRITING</strong>.</p>	
 
-		<p>And I'm good at it, too! I've mastered the art of the comma (Oxford all the way, baby!), have a degree in literature, and can spell words of up to five syllables.</p> 
+		<p>And I&rsquo;m good at it, too! I&rsquo;ve mastered the art of the comma (Oxford all the way, baby!), have a degree in literature, and can spell words of up to five syllables.</p> 
 
-		<p>I'm also great at using my articles to teach people skills that will help them have happier lives. Want to see for yourself? Check out a couple articles here and here.</p>
+		<p>I&rsquo;m also great at using my articles to teach people skills that will help them have happier lives. Want to see for yourself? Check out a couple articles here and here.</p>
 
-	<p><b>I WAS TOLD THAT I SHOULD BE A COMEDIAN.</b></p>
+	<p><strong>I WAS TOLD THAT I SHOULD BE A COMEDIAN.</strong></p>
 
-		<p>Twice. In the same night by the same half-drunk British man. But you know what? I'm counting it as two because I also happen to be an eternal optimist. Try and wipe that smile off your face. You can't. Because I'm so damn funny.</p>
+		<p>Twice. In the same night by the same half-drunk British man. But you know what? I&rsquo;m counting it as two because I also happen to be an eternal optimist. Try and wipe that smile off your face. You can&rsquo;t. Because I&rsquo;m so damn funny.</p>
 
-	<p><b>I BELIEVE IN SILVER LININGS.</b></p>
+	<p><strong>I BELIEVE IN SILVER LININGS.</strong></p>
 
-		<p>At the beginning of 2014 I was miserable in my corporate job. I loved my coworkers, but the work was slowly killing my soul. I just wasn't suited to admin work and reporting.</p> 
+		<p>At the beginning of 2014 I was miserable in my corporate job. I loved my coworkers, but the work was slowly killing my soul. I just wasn&rsquo;t suited to admin work and reporting.</p> 
 
 		<p>I decided I needed to quit my job at the end of the year and really focus on the things I loved to do.</p> 
 
-		<p>Guess what happened? I got laid off. Now, that could be a sad story, but it isn't! I basically got paid to do what I <i>needed</i> to do anyway, and now I travel and work remotely.</p> 
+		<p>Guess what happened? I got laid off. Now, that could be a sad story, but it isn&rsquo;t! I basically got paid to do what I <i>needed</i> to do anyway, and now I travel and work remotely.</p> 
 
 		<p>See? Silver lining!</p>
 
-	<p><b>I'M GREAT AT SOLVING PEOPLE PROBLEMS.</b></p>
+	<p><strong>I&rsquo;M GREAT AT SOLVING PEOPLE PROBLEMS.</strong></p>
 
-		<p>Since I love talking to people, and I'm curious about what motivates them, I'm great at taking a big issue, talking with people about it, and breaking it down into manageable parts that can actually be fixed.</p> 
+		<p>Since I love talking to people, and I&rsquo;m curious about what motivates them, I&rsquo;m great at taking a big issue, talking with people about it, and breaking it down into manageable parts that can actually be fixed.</p> 
 
 		<p>Being in HR really taught me how to use this skill. Everyone leaves the table feeling that their story was respected and heard.</p> 
 
@@ -204,7 +204,7 @@ get_header(); ?>
   </a>
 </section>
 
-<p><b><center>BACK TO TOP</center></b></p>
+<p><strong><center>BACK TO TOP</center></strong></p>
 
 </div>
 
