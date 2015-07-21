@@ -97,85 +97,188 @@ font-family: 'Roboto2014_black';
 // Example:
 // @import "front-page.less";
 
-.center-me {
-	text-align: center;
-	font-weight: bold;
-	font-size: 50px;
-	font-family: Georgia;
-}
-
 .full-sized-image {
-	position: relative;
+  position: relative;
+  display: block;
+  height: 600px;
+  z-index: 1;
 
-    h3 {
-        font-size: 60px;
- }
+  /*
+   * The & refers to the selector (.full-sized-image) that it sits inside. This
+   * is the same as targeting .full-sized-image::after
+   *
+   * This is a pseudo-element. For more info on pseudo-elements, 
+   * see https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+   */
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
 
-	img {
-		max-width: 100%;
-	}
+    /*
+     * Using fade(color, amount) lets you adjust a color's opacity.
+     * See http://lesscss.org/functions/#color-operations-fade for details.
+     */
+    background: fade(@gray-darker, 50%);
+
+    /* The overlay should be above the image, but below the text. */
+    z-index: 5;
+  }
+
+  h1,h2,h3,p {
+    position: relative;
+
+    /* Text should sit on top of everything, so it has the highest z-index. */
+    z-index: 10;
+  }
+
+  /*
+   * The > is to specify that only direct children should be targeted.
+   *
+   * Example:
+
+    <div class="full-sized-image">
+      
+      <!--
+       This H2 will be targeted because its parent (wrapping element) 
+       is `.full-sized-image`.
+      -->
+      <h2>Child/direct descendant.</h2>
+
+      <div>
+        <!--
+         This H2 will NOT be targeted because it's inside a second div.
+        -->
+        <h2>Indirect descendant.</h2>
+      </div>
+
+    </div>
+
+   */
+  >h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 100%;
+    margin: 0;
+    color: @gray-lighter;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px @gray;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+
+  img {
+    position: relative;
+    max-width: 100%;
+
+    /* This should sit behind the gradient overlay, so the z-index is lower. */
+    z-index: 2;
+  }
 }
+
+.gradient-overlay {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* 
+     * Note that this is considered an image, not a color. Not important, but 
+     * it can trip you up if you try to set background-color instead.
+     *
+     * It's a bit heavy, but the details are here:
+     * https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+     *
+     * The easiest way to understand gradient functions is to just create a div
+     * and play with the settings to see what they do.
+     */
+    background-image: linear-gradient(
+      to right,
+      fade(@gray-darker, 90%),
+      fade(@gray-darker, 80%) 45%,
+      fade(@gray-darker, 0%)
+    );
+    border-bottom: 1px solid @gray-darker;
+    z-index: 9;
+  }
+
+  /* I'm using color variables from variables.less; feel free to change. */
+  h1,h2,h3,p {
+    color: @gray-lighter;
+    text-shadow: 2px 2px 1px @gray-darker;
+  }
+
+  /*
+   * line-height is how you control vertical spacing. It's how you would 
+   * specify single- or double-spacing, for example.
+   */
+  h1 {
+    font-size: 100px;
+    line-height: 1;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  p {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 1.25;
+  }
+}
+
 
 .about-me-header {
-	position: absolute;
-	width: 50%;
-	top: 25%;
-	left: 8%;
-    text-shadow: 2px 2px #B6B6B6;
-}
-.about-me-text {
-	position: relative;
-	background: white; 
-	width: 100%;
-  padding: 3em;
-}
-
-.work-header {
-	position: absolute;
-    color: #ffffff;
-    width: 40%;
-    top: 25%;
-    left: 44%;
-    text-shadow: 2px 2px #B6B6B6;
-}
-
-.work-text {
-  position: relative;
-	 background: white;
-	 width: 100%;
-   padding: 3em
-}
-
-.blog-header {
-	position: absolute;
-    color: #ffffff;
-    width: 40%;
-    top: 25%;
-    left: 44%;
-    text-shadow: 1px 1px #B6B6B6;
-}
-
-.blog-text {
-  position: relative;
-	 background: white;
-	 width: 100%;
-   padding: 3em
-}
-
-.contact-header {
   position: absolute;
-    color: #ffffff;
-    width: 40%;
-    top: 25%;
-    left: 38%;
-    text-shadow: 1px 1px #B6B6B6;
+  width: 50%;
+  top: 25%;
+  left: 8%;
+  text-shadow: 2px 2px #B6B6B6;
+  z-index: 10;
 }
 
-.contact-text {
+.text-box {
   position: relative;
-    background: white;
-    width: 100%;
-    padding: 2em
+
+  /*
+   * This isn't required, but having a minimum height for the white boxes helps
+   * the visual flow.
+   */
+  min-height: 600px;
+  padding: 50px 20px;
+  background: white;
+  z-index: 10;
+}
+
+.text-wrap {
+  display: block;
+
+  /* Makes sure the text doesn't go too wide to be easily legible. */
+  max-width: 900px;
+
+  /*
+   * Setting the left and right margins to "auto" means an element that's
+   * display: block will center in its container element. (In this case, 
+   * .text-box is the parent.)
+   */
+  margin: 0 auto;
+
+  p {
+    font-size: 18px;
+  }
 }
 
 /* This is the scrolling arrow */
@@ -183,9 +286,10 @@ font-family: 'Roboto2014_black';
 /* the wrapper element that will become the outer circle */
 .arrow-wrap {
   position:absolute;
-  z-index:1;
-  left:50%;
-  top:-5em;
+  z-index:15;
+  left: 50%;
+  top: 0;
+  transform: translate3d(-50%, -50%, 0);
   margin-left:-5em;
   background:#111;
   width:10em;
@@ -194,6 +298,7 @@ font-family: 'Roboto2014_black';
   border-radius:50%;
   font-size:0.5em;
   display:block;
+  border: 1px solid fade(@gray-lighter, 25%);
   box-shadow:0px 0px 5px 0px #333;
 }
 
