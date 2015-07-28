@@ -111,6 +111,7 @@ get_header(); ?>
 		<h2>Work With Me</h2>
 		<img src="<?=ASSETS_DIR?>/images/Work_With_Me.jpg" alt="Work With Me">
 </div>
+
 <!-- This is the block with the contact form on a scrolling white background -->
 
 <div class="text-box">
