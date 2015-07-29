@@ -268,6 +268,34 @@ margin: 0 auto;
   font-size: 18px;
   }
 
+.portfolio-text {
+  text-align: center;
+}
+
+.back-to-top-text{
+  text-align: center;
+  padding-top: 13em;
+  z-index: 4;
+  font-weight: bold;
+}
+
+.logo-wrap {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding-top: 10em;
+  letter-spacing: 80px;
+}
+
+.social-icon-wrap {
+  font-size: 24px;
+  letter-spacing: 20px;
+  width: 200px;
+  padding-top: 20px;
+  position: absolute;
+  text-decoration: none;
+}
 
 /* This is the scrolling arrow */
 
@@ -320,10 +348,10 @@ margin: 0 auto;
 
 /* the wrapper element that will become the outer circle */
 .arrow-wrap-top {
-  position:relative;
+  position:absolute;
   z-index:1;
   left:50%;
-  top:0em;
+  bottom:50px;
   margin-left:-5em;
   background:#111;
   width:10em;
@@ -333,6 +361,21 @@ margin: 0 auto;
   font-size:0.5em;
   display:block;
   box-shadow:0px 0px 5px 0px #333;
+
+  &::after {
+    content: 'Back to Top';
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: @gray-darker;
+  }
 }
 
 /* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */

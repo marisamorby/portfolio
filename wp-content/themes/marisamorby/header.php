@@ -29,6 +29,10 @@ $nav = Hoverboard::get_nav_menu($config);
 
 <title><?php wp_title('&rsaquo;'); ?></title>
 
+<!-- Font Awesome link that makes the social icon buttons appear -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
 <?php wp_head(); ?>
 
 </head>
