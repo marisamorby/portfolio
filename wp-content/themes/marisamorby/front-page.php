@@ -29,15 +29,27 @@ get_header(); ?>
 <div class="text-box">
 	<div class="text-wrap">
 
-		<h3>Hi, I'm Marisa Morby. I'm a curious, fun, and creative copy writer. You want copy that sells. Get copy that sells.</h3>
+		<h3>Hey, I'm Marisa Morby. You want copy that sells. Get copy that sells.</h3>
 
 		<h3>Who I am</h3>
 
-		<p>Text</p>
+		<p>I'm a weird, fun, and fantastic storyteller.</p>
+
+		<p>I travel and work remotely. I can proudly say hello, goodbye, thank you, and <i>what??</i> in six languages now. Go me.</p>
+		
+		<p>I'm hilarious. You should know that more for your own safety than anything, really. In fact, I was told I should be a comedian twice in the same night, by the same British guy. I'm counting it twice because I'm an optimist (I'm also bad at math, but whatever). So try and wipe that smile off your face. You can't. Because I'm so damn funny.</p>
+
+		<p>I believe in silver linings. In 2014 I was in a job that was slowly sucking out my soul. I loved my coworkers, but knew that I needed to quit and focus on work I loved. Then in June, they shut down the office and laid everyone off. I could've been sad, but realized I'd just be paid to do what I <i>needed</i> to do anyway. See? Silver lining!</p>
 
 		<h3>What I do</h3>
 
-		<p>Text</p>
+		<p>I work on fun projects to learn new skills. This website is one of them. I didn't know any code before I built this. Now I can design sites like it's magic!</p>
+
+		<p>I learn new things, tackle challenges, and stare danger in the face. (Ok, maybe not the last one.)</p>
+
+		<p>I love writing. I've mastered the art of the comma, have a degree in literature, and can spell words of up to five syllables. I'm happiest writing articles that teach skills for a happier life.</p>
+
+		<p>I solve people problems. I'm curious and enjoy people. I like taking big issues, talking with people about them, and creating manageable plans that fix the problems.</p>
 
 	</div>
 
