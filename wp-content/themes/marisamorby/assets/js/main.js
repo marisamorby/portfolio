@@ -8,6 +8,10 @@ jQuery(function($){
     var size = window.getComputedStyle(document.body,':after')
                 .getPropertyValue('content').replace(/\W/g, '');
 
+    // Local scrolling via:
+    // http://flesler.blogspot.it/2007/10/jquerylocalscroll-10.html
+    $.localScroll();
+
 
     /*
      * CUSTOM THEME JS
@@ -17,17 +21,13 @@ jQuery(function($){
         // Sets the background images to scroll 40% more slowly than the page.
         $('#about>img').parallaxHw(0, -0.4);
         $('#portfolio>img').parallaxHw(0, -0.4);
-        //$('#blog>img').parallaxHw(100, -0.4);
         $('#work-together>img').parallaxHw(150, -0.4);
 
         // Set the headings to move 20% more slowly than the page.
         $('.about-me-header').parallaxHw(0, -0.2);
-        $('#portfolio>h2').parallaxHw(0, -0.2);
-        //$('#blog>h2').parallaxHw(0, -0.2);
-        $('#work-together>h2').parallaxHw(0, -0.2);
-
-        // If you want to add local scrolling, use this:
-        // http://flesler.blogspot.it/2007/10/jquerylocalscroll-10.html
+        // $('#portfolio>h2').parallaxHw(0, -0.3);
+        // $('#work-together>h2').parallaxHw(0, -0.3);
+        
     }
  		 
  });
