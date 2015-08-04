@@ -38,26 +38,3 @@ $nav = Hoverboard::get_nav_menu($config);
 </head>
 
 <body class="<?= Hoverboard::get_wrapper_class() ?>">
-
-   <!--  <header>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-default" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" 
-                                data-toggle="collapse" data-target=".main-nav">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" 
-                           href="<?= home_url('/') ?>" 
-                           title="<?= $title ?>" 
-                           rel="home"><?php bloginfo('name', 'display'); ?></a>
-                    </div>
-                    <?= $nav ?> 
-                </nav>
-            </div>
-        </div>
-    </header> -->

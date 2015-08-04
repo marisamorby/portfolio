@@ -14,11 +14,20 @@ get_header(); ?>
 <div class="gradient-overlay full-sized-image" id="about"> 
 
 	<div class="about-me-header">
-		<h1>Hi, I&rsquo;m Marisa.</h1><br>
 
-		<h2>Copywriter</h2>
+		<h1>Hi, I&rsquo;m Marisa.</h1>
 
-		<p>You want copy that sells. Get copy that sells.</p> 
+		<h2>Copywriter &amp; Marketer</h2>
+
+		<p>
+			You want copy that sells.<br class="visible-xs visible-sm">
+			Get copy that sells.
+		</p>
+
+		<a href="#work-together" class="main-cta">
+			Find Out How
+		</a>
+
 	</div>
 
 	<img src="<?=ASSETS_DIR?>/images/Marisa_Morby_Profile.png" alt="Marisa Morby">
@@ -27,19 +36,9 @@ get_header(); ?>
 
 <!-- This is the block with scrolling About Me text on white background -->
 <div class="text-box">
-	<div class="text-wrap">
+	<div class="text-wrap" id="how-copy-helps">
 
 		<h3>Hey, I'm Marisa Morby. You want copy that sells. Get copy that sells.</h3>
-
-		<h3>Who I am</h3>
-
-		<p>I'm a weird, fun, and fantastic storyteller.</p>
-
-		<p>I travel and work remotely. I can proudly say hello, goodbye, thank you, and <i>what??</i> in six languages now. Go me.</p>
-		
-		<p>I'm hilarious. You should know that more for your own safety than anything, really. In fact, I was told I should be a comedian twice in the same night, by the same British guy. I'm counting it twice because I'm an optimist (I'm also bad at math, but whatever). So try and wipe that smile off your face. You can't. Because I'm so damn funny.</p>
-
-		<p>I believe in silver linings. In 2014 I was in a job that was slowly sucking out my soul. I loved my coworkers, but knew that I needed to quit and focus on work I loved. Then in June, they shut down the office and laid everyone off. I could've been sad, but realized I'd just be paid to do what I <i>needed</i> to do anyway. See? Silver lining!</p>
 
 		<h3>What I do</h3>
 
@@ -51,12 +50,27 @@ get_header(); ?>
 
 		<p>I solve people problems. I'm curious and enjoy people. I like taking big issues, talking with people about them, and creating manageable plans that fix the problems.</p>
 
+		<h3>Who I am</h3>
+
+		<p>I'm a weird, fun, and fantastic storyteller.</p>
+
+		<p>I travel and work remotely. I can proudly say hello, goodbye, thank you, and <i>what??</i> in six languages now. Go me.</p>
+		
+		<p>I'm hilarious. You should know that more for your own safety than anything, really. In fact, I was told I should be a comedian twice in the same night, by the same British guy. I'm counting it twice because I'm an optimist (I'm also bad at math, but whatever). So try and wipe that smile off your face. You can't. Because I'm so damn funny.</p>
+
+		<p>I believe in silver linings. In 2014 I was in a job that was slowly sucking out my soul. I loved my coworkers, but knew that I needed to quit and focus on work I loved. Then in June, they shut down the office and laid everyone off. I could've been sad, but realized I'd just be paid to do what I <i>needed</i> to do anyway. See? Silver lining!</p>
+		
 	</div>
 
-<!-- This is the scroll arrow -->
-  	<a class="arrow-wrap">
-    <span class="arrow"></span>
-  	</a>
+	<!-- This is the scroll arrow -->
+	<a class="arrow-wrap pin-to-top" href="#how-copy-helps">
+  	<span class="arrow"></span>
+	</a>
+
+	<!-- This is the scroll arrow -->
+	<a class="arrow-wrap pin-to-bottom" href="#portfolio">
+  	<span class="arrow"></span>
+	</a>
 
 </div>
 
@@ -64,66 +78,66 @@ get_header(); ?>
 <!-- This is the block with another image the Portfolio header -->
 <div class="image-portfolio full-sized-image" id="portfolio">
 
-	<h2>Portfolio</h2>
+	<h2>
+		Some of My
+		<strong>Writing</strong>
+	</h2>
 	<img src="<?=ASSETS_DIR?>/images/Portfolio.jpg" alt="Portfolio">
 </div>
 
 <!-- This is the block with Work text on a scrolling white background -->
 
 <div class ="text-box">
-	<div class="text-wrap">
+	<div class="text-wrap center-me">
+		<h3>I&rsquo;ve Written for These Great Companies</h3>
+		<p>
+			<small>To read an article I wrote for a site, click its logo.</small>
+		</p>
 		<div class="logo-wrap">
 
-			<a href="http://www.futureinsights.com/home/how-to-convince-your-boss-you-should-work-from-home-or-rome.html" target="_blank"><img src="<?=ASSETS_DIR?>/images/Future_insights_logo.png" alt= "Future Insights Logo"></a>
+			<a href="http://www.futureinsights.com/home/how-to-convince-your-boss-you-should-work-from-home-or-rome.html" 
+			   title="Future Insights — How To Convince Your Boss You Should Work From Home - or Rome" target="_blank">
+				<img src="<?=ASSETS_DIR?>/images/Future_insights_logo.png" alt= "Future Insights Logo">
+			</a>
 
-			<a href="https://www.themuse.com/advice/the-underrated-skills-that-will-make-you-a-better-employee-and-human-being" target="_blank"><img src="<?=ASSETS_DIR?>/images/the_muse_logo.png" alt= "The Muse Logo"></a>
+			<a href="https://www.themuse.com/advice/the-underrated-skills-that-will-make-you-a-better-employee-and-human-being" 
+			   title="The Muse — The Underrated Skills That Will Make You a Better Employee (and Human Being)" target="_blank">
+				<img src="<?=ASSETS_DIR?>/images/the_muse_logo.png" alt= "The Muse Logo">
+			</a>
 
-			<a href="https://www.linkedin.com/pulse/4-most-important-questions-ask-during-interview-marisa-morby?trk=pulse_spock-articles" target="_blank"><img src="<?=ASSETS_DIR?>/images/LinkedIn_pulse_logo.png" alt= "LinkedIn Pulse Logo"></a>
+			<a href="https://www.linkedin.com/pulse/4-most-important-questions-ask-during-interview-marisa-morby?trk=pulse_spock-articles" 
+			   title="LinkedIn Pulse — The 4 Most Important Questions to Ask During an Interview" target="_blank">
+				<img src="<?=ASSETS_DIR?>/images/LinkedIn_pulse_logo.png" alt= "LinkedIn Pulse Logo">
+			</a>
 
-			<a href="http://www.lifehack.org/articles/work/9-signs-you-need-quit-your-job.html" target="_blank"><img src="<?=ASSETS_DIR?>/images/lifehack_logo.png" alt= "Lifehack Logo"></a>
+			<a href="http://www.lifehack.org/articles/work/9-signs-you-need-quit-your-job.html" 
+			   title="Lifehack — 9 Signs You Need to Quit Your Job" target="_blank">
+				<img src="<?=ASSETS_DIR?>/images/lifehack_logo.png" alt= "Lifehack Logo">
+			</a>
+
 		</div>
 
-			<div class="portfolio-text">
-				<h3>To read more of my work, visit my <a href="https://medium.com/@marisamorby" target="_blank">Medium Publication.</h3>
-			</div>
-	</div>	
+		<div class="portfolio-text">
+			<h3>You can read more of my writing on <a href="https://medium.com/@marisamorby" target="_blank">Medium</a>.</h3>
+		</div>
+	</div>
 
-<!-- This is the scroll arrow -->
-  <a class="arrow-wrap">
-    <span class="arrow"></span>
-  </a>
+	<!-- This is the scroll arrow -->
+	<a class="arrow-wrap pin-to-bottom" href="#work-together">
+  	<span class="arrow"></span>
+	</a>
   
 </div>
-
-<!-- This is the block with another image and Blog header 
-<div class="image-blog full-sized-image" id="blog">
-		<h2>Blog</h2>
-		<img src="http://127.0.0.1:5000/wp-content/uploads/2015/06/Typewriter.jpg">
-</div>
-
-
-<! This is the block with the Blog text on a scrolling white background 
-<div class="text-box">
-
-		<p>Post 1</p>
-		<p>Post 2</p>
-		<p>Post 3</p>
-
-</div> 
-
-< - -! This is the scroll arrow - - >
-  <a class="arrow-wrap">
-    <span class="arrow"></span>
-  </a>	
-
-</div>  -->
 
 
 <!-- This is the block with another image and contact header -->
 
 <div class="image-work-together full-sized-image" id="work-together">
 
-		<h2>Work Together</h2>
+		<h2>
+			Let&rsquo;s Work
+			<strong>Together</strong>
+		</h2>
 		<img src="<?=ASSETS_DIR?>/images/Work_With_Me.jpg" alt="Work With Me">
 </div>
 
@@ -132,31 +146,36 @@ get_header(); ?>
 <div class="text-box">
 	<div class="text-wrap">
 		<h3>Services</h3>
-		<p>Sales Pages</p>
-		<p>Lead Pages</p>
-		<P>Articles</p>	
-		<h3>Interested in working together? Me, too! Shoot me an email and I'll get back to you within two days. Pinky promise.</h3>
+		<p>
+			If you&rsquo;re looking for help with your marketing, I&rsquo;m 
+			here for you.
+		</p>
+		<p>
+			From a quick <strong>overhaul of your home page</strong> to full-on 
+			<strong>marketing funnel design, copywriting, and testing</strong>, I can
+			take the stress out of making your website work for you.
+		</p>
+		<p>
+			Drop me a line below and we&rsquo;ll figure out how to make the 
+			biggest impact.
+		</p>
+
+		<?php gravity_form(1, false, false, false, null, true, 100, true); ?> 
+		<!-- <h3>Interested in working together? Me, too! Shoot me an email and I'll get back to you within two days. Pinky promise.</h3> -->
 
 		<div class="social-icon-wrap">
-			<a href="https://www.facebook.com/marisa.morby" target="_blank"<i class="fa fa-facebook"></i></a>
-			<a href="https://twitter.com/marisamorby" target="_blank"<i class="fa fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/pub/marisa-morby/19/633/639" target="_blank"<i class="fa fa-linkedin"></i></a>
+			<a href="https://www.facebook.com/marisa.morby" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/marisamorby" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/pub/marisa-morby/19/633/639" target="_blank"><i class="fa fa-linkedin"></i></a>
 		</div>
 
-	</div>		
+		<!-- Back to top arrow-->
+	  <a class="arrow-wrap-top" href="#about">
+	 		<span class="arrow"></span>
+	  </a>
 
-<!-- Back to top arrow-->
-  <a class="arrow-wrap-top" href="#">
- 	<span class="arrow-top"></span>
-  </a>
+	</div>	
  </div>
 
 <?php
 get_footer();
-
-
-
-
-
-
-

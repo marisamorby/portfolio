@@ -101,12 +101,28 @@ function hb_enqueue_assets(  ) {
     /*
      * SCRIPTS
      **************************************************************************/
+
+    wp_register_script(
+        'scrollTo',
+        THEME_DIR . '/includes/jquery.scrollTo/jquery.scrollTo.min.js',
+        array('jquery'),
+        '2.1.1',
+        true
+    );
+
+    wp_register_script(
+        'localScroll',
+        THEME_DIR . '/includes/jquery.localScroll/jquery.localScroll.min.js',
+        array('scrollTo'),
+        '1.4.0',
+        true
+    );
     
     // If a theme JS file is built, include it
     if (is_readable(ASSETS_PATH . '/js/main.min.js')) {
         wp_enqueue_script('theme-js',
             ASSETS_DIR . '/js/main.min.js',
-            array('jquery'),
+            array('localScroll'),
             '1.0.0b' . filemtime(ASSETS_PATH . '/js/main.min.js'),
             TRUE
         );
