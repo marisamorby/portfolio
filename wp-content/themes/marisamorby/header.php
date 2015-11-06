@@ -38,3 +38,16 @@ $nav = Hoverboard::get_nav_menu($config);
 </head>
 
 <body class="<?= Hoverboard::get_wrapper_class() ?>">
+
+<div class="nav">
+	<ul id="nav">
+  		<li><a href="/">Home</a></li>
+  		<li><a href="/blog/">Blog</a></li>
+  		<li><a href="/about/">About</a></li>
+	</ul>
+
+	<div class="search">
+  		<input type="search" placeholder="search..." />
+	</div>
+	
+</div>

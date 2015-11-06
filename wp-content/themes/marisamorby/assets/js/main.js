@@ -22,6 +22,7 @@ jQuery(function($){
         $('#about>img').parallaxHw(0, -0.4);
         $('#portfolio>img').parallaxHw(0, -0.4);
         $('#work-together>img').parallaxHw(150, -0.4);
+        $('.blog-single>img').parallaxHw(0, -0.4);
 
         // Set the headings to move 20% more slowly than the page.
         $('.about-me-header').parallaxHw(0, -0.2);

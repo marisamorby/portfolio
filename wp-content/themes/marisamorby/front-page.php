@@ -38,28 +38,12 @@ get_header(); ?>
 <div class="text-box">
 	<div class="text-wrap" id="how-copy-helps">
 
-		<h3>Hey, I'm Marisa Morby. You want copy that sells. Get copy that sells.</h3>
+		<h3>Copywriting that makes people say, "Holy shit, take my money!"</h3>
 
-		<h3>What I do</h3>
+		<p>How you sell is more important than what you sell. And if you want people to buy you've got to have great copy. If you don't, then you don't matter.</p>
 
-		<p>I work on fun projects to learn new skills. This website is one of them. I didn't know any code before I built this. Now I can design sites like it's magic!</p>
+		<p>I work with clients who crave to stand out from the crowd and be their weird, fun, and totally fantastic selves. So I write marvelous words that do just that. Web copy that delights. Articles that enthrall. And sales pages that make people say, "Holy shit, take my money!"</p>
 
-		<p>I learn new things, tackle challenges, and stare danger in the face. (Ok, maybe not the last one.)</p>
-
-		<p>I love writing. I've mastered the art of the comma, have a degree in literature, and can spell words of up to five syllables. I'm happiest writing articles that teach skills for a happier life.</p>
-
-		<p>I solve people problems. I'm curious and enjoy people. I like taking big issues, talking with people about them, and creating manageable plans that fix the problems.</p>
-
-		<h3>Who I am</h3>
-
-		<p>I'm a weird, fun, and fantastic storyteller.</p>
-
-		<p>I travel and work remotely. I can proudly say hello, goodbye, thank you, and <i>what??</i> in six languages now. Go me.</p>
-		
-		<p>I'm hilarious. You should know that more for your own safety than anything, really. In fact, I was told I should be a comedian twice in the same night, by the same British guy. I'm counting it twice because I'm an optimist (I'm also bad at math, but whatever). So try and wipe that smile off your face. You can't. Because I'm so damn funny.</p>
-
-		<p>I believe in silver linings. In 2014 I was in a job that was slowly sucking out my soul. I loved my coworkers, but knew that I needed to quit and focus on work I loved. Then in June, they shut down the office and laid everyone off. I could've been sad, but realized I'd just be paid to do what I <i>needed</i> to do anyway. See? Silver lining!</p>
-		
 	</div>
 
 	<!-- This is the scroll arrow -->
@@ -107,7 +91,7 @@ get_header(); ?>
 
 			<a href="https://www.linkedin.com/pulse/4-most-important-questions-ask-during-interview-marisa-morby?trk=pulse_spock-articles" 
 			   title="LinkedIn Pulse — The 4 Most Important Questions to Ask During an Interview" target="_blank">
-				<img src="<?=ASSETS_DIR?>/images/LinkedIn_pulse_logo.png" alt= "LinkedIn Pulse Logo">
+				<img src="<?=ASSETS_DIR?>/images/LinkedIn_Pulse_logo.png" alt= "LinkedIn Pulse Logo">
 			</a>
 
 			<a href="http://www.lifehack.org/articles/work/9-signs-you-need-quit-your-job.html" 
@@ -115,10 +99,21 @@ get_header(); ?>
 				<img src="<?=ASSETS_DIR?>/images/lifehack_logo.png" alt= "Lifehack Logo">
 			</a>
 
+			<a href="http://blog.gojobhero.com/2015/08/03/how-to-make-travel-a-part-of-your-career/" 
+			   title="Go Job Hero — How to Make Travel a Part of Your Career" target="_blank">
+				<img src="<?=ASSETS_DIR?>/images/Go_Job_Hero_logo.png" alt= "Go Job Hero Logo">
+			</a> 
+
+			<a href="http://thenuschool.com/when-and-how-to-say-no-to-a-project/"
+				title="NuSchool — When and How to Say No to a Project" 
+				target="_blank">
+					<img src="<?=ASSETS_DIR?>/images/nuSchool_logo.png" alt= "nuSchool">
+			</a>
+
 		</div>
 
 		<div class="portfolio-text">
-			<h3>You can read more of my writing on <a href="https://medium.com/@marisamorby" target="_blank">Medium</a>.</h3>
+			<h3>You can read more of my writing on my <a href="/blog">Blog</a> or <a href="https://medium.com/@marisamorby" target="_blank">Medium</a>.</h3>
 		</div>
 	</div>
 
@@ -156,12 +151,11 @@ get_header(); ?>
 			take the stress out of making your website work for you.
 		</p>
 		<p>
-			Drop me a line below and we&rsquo;ll figure out how to make the 
+			Send me a note and we&rsquo;ll figure out how to make the 
 			biggest impact.
 		</p>
 
 		<?php gravity_form(1, false, false, false, null, true, 100, true); ?> 
-		<!-- <h3>Interested in working together? Me, too! Shoot me an email and I'll get back to you within two days. Pinky promise.</h3> -->
 
 		<div class="social-icon-wrap">
 			<a href="https://www.facebook.com/marisa.morby" target="_blank"><i class="fa fa-facebook"></i></a>

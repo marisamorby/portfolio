@@ -58,7 +58,7 @@ function hb_setup_theme(  ) {
      * Every image size used in the layout should have a custom image size 
      * associated with it. Set them here.
      *************************************************************************/
-    //add_image_size( $name, $width = 0, $height = 0, $crop = false )
+    add_image_size( "title-image", 1600, 1000, true );
 }
 add_action('hoverboard/init', 'hb_setup_theme');
 

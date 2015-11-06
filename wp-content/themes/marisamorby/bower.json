@@ -18,6 +18,8 @@
     "tests"
   ],
   "dependencies": {
-    "tgm-plugin-activation": "thomasgriffin/TGM-Plugin-Activation"
+    "tgm-plugin-activation": "thomasgriffin/TGM-Plugin-Activation",
+    "jquery.localScroll": "~1.4.0",
+    "jquery.scrollTo": "~2.1.1"
   }
 }
